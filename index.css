@@ -9,10 +9,11 @@ body{
     background-color: #fff;
 }
 .section{
-    padding-top: 121px;
-    padding-bottom: 111px;
+    padding: 80px 0;
 }
-
+.section,footer h1, h2, h3, h4, h5, h6, p, span{
+    color: #22262A;
+}
 
 
 /* header */
@@ -49,6 +50,7 @@ header{
 }
 .padding-t{
     padding-top: 150px;
+    padding-left: 3rem;
 }
 .slider-content h1{
     color: #f0f1f7;
@@ -67,11 +69,11 @@ header{
 .slider-btn a{
     text-decoration: none;
     font-weight: 500;
-    background-color: black;
+    background-color: #22262A;
     padding: 10px 30px;
     color: #fff;
     margin-right: 30px;
-    border: 1px solid black;
+    border: 1px solid #22262A;
 }
 .slider-btn a:hover{
     background-color: rgb(19, 18, 18);
@@ -85,16 +87,14 @@ header{
     .active-slider-img-1{
         background-position: -150px;
     }
-    .active-slider-img-2{
-        background-position: -900px;
-    }
     .padding-t{
         padding-top: 60px;
+        padding-left: 1rem;
     }
     .slider-btn{
         display: flex;
         flex-direction: column;
-        width: 50%;
+        width: 90%;
         text-align: center;
     }
     .slider-btn a{
@@ -117,13 +117,14 @@ header{
     font-weight: 500;
     padding: 5px 30px;
     background-color: #fff;
-    color: black;
+    color: #22262A;
     position: absolute;
     bottom: 25px;
     left: 40px;
 }
 #mt a:hover{
-    background-color: rgb(245, 238, 238);
+    background-color: #22262A;
+    color: #fff;
 }
 /* image gellary responsive */
 @media (max-width: 992px) {
@@ -132,3 +133,123 @@ header{
     }
 }
 
+
+/* womens */
+.section-header h4{
+    font-weight: 700;
+}
+.section-header p{
+    font-weight: 500;
+}
+#mbrem{
+    margin-bottom: .5rem;
+}
+.card-information h6{
+    font-weight: 700;
+}
+#li-thrw{
+    text-decoration: line-through;
+    margin-right: 20px;
+}
+
+
+/* avone style */
+.custom-p{
+    position: absolute;
+    bottom: -151px;
+    right: 0;
+}
+.custom-p-p{
+    color: #22262A;
+    font-weight: 400;
+    position: absolute;
+    bottom: -150px;
+    left: 0;
+    border-bottom: 1px solid #22262A;
+}
+/* avone responsive */
+@media (max-width: 576px) {
+    .sm-m{
+        margin-bottom: 30px;
+    }
+    .custom-p-p{
+        bottom: -208px;
+        left: 25px;
+    }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+    .avone{
+        margin-bottom: 150px;
+    }
+    .sm-m{
+        margin-bottom: 30px;
+    }
+}
+
+
+/* tachen */
+.tachen{
+    background-image: url(images/baner-4.png);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.padd-t{
+    padding-top: 200px;
+    padding-bottom: 50px;
+}
+.slider-2 h6{
+    color: #22262A;
+    font-weight: 700;
+}
+.slider-2 h1{
+    color: #22262A;
+    font-weight: 700;
+}
+/* tachen responsive */
+@media (max-width: 576px) {
+    .tachen{
+        margin-top: 150px;
+        background-position: -950px;
+    }
+    .slider-2 h6{
+        color: #f0f1f7;
+    }
+    .slider-2 h1{
+        color: #f0f1f7;
+    }
+}
+@media (min-width: 577px) and (max-width: 992px) {
+    .tachen{
+        margin-top: 150px;
+        background-position: -590px;
+    }
+}
+
+
+/* contact */
+.contact{
+    background-color: #F2F8FC
+    ;
+}
+.bb-1{
+    width: 100%;
+    border-bottom: 2px solid #22262A;
+    margin: 0;
+}
+.cus-m{
+    margin: 0;
+}
+.contact-icon a{
+    color: #22262A;
+    margin-right: 15px;
+}
+.contact-table{
+    
+}
+
+
+/* footer */
+footer{
+    background-color: #E7F5F8;
+}
